@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-# 데코레이터를 사용하여 app.route
+# 데코레이터를 사용. URL을 빌드하기 위해.
 def hello_world():
     # '/' 라는 URL에 접근할 경우 실행되는 함수를 정의.
 
