@@ -1,4 +1,5 @@
 from flask import Flask
+# flask 폴더 안의 flask를 import.
 # 정확히는 flask.app.Flask import 하는 것
 
 app = Flask(__name__)
