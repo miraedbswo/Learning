@@ -25,9 +25,9 @@ def login():
 
     if username != 'goming' and password != 'abcd':
         return jsonify({'msg': 'bad username or password'}), 400
-
-    access_token = create_access_token(identity=username)
-    return jsonify(access_token=access_token), 200
+    else:
+        access_token = create_access_token(identity=username)
+        return jsonify(access_token=access_token), 200
 
 
 @app.route('protected', methods=['GET'])
