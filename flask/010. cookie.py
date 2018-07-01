@@ -25,13 +25,13 @@ Response Header에 Set-cookie 속성을 사용하면 클라이언트에 쿠키�
 
 @app.route('/cookie', methods=['GET', 'POST'])
 def send_cookie():
-    if request.form == 'GET':
+    if request.method == 'GET':
         response = Response('cookie')
         # 쿠키를 주려면 Response 객체가 필요하다
         response.set_cookie('cookie', 'value')
 
         return response
-    elif request.form == 'POST':
+    elif request.method == 'POST':
         response = Response('Hi')
         response.set_cookie('cookie', '', expires=0)
 
