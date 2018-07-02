@@ -23,3 +23,20 @@ def login():
 def page_not_found(error):
     return render_template('page_not_found.html', 404)
     # 페이지의 상태 코드가 404를 Flask에게 말해 준다.
+
+
+@app.errorhandler(AssertionError)
+# view function에서 발생하는 AssertionError를 intercept하여 처리
+def assertion_error():
+    return 'AssertionError.', 500
+
+
+@app.route('/2')
+def test2():
+    raise AssertionError()
+    # AssertionError 일부러 발생시킴. 28번줄의 errorhandler(AssertionError)를 테스트 하기 위함.from
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
