@@ -19,7 +19,7 @@ def before_first_request():
         # 두 번째 인자 -> max치를 설정. maxBytes를 채우면 새 로그 파일을 생성
         # 세 번째 인자 -> n번째 로그 파일이 생성되면 원래 있던 로그파일을 버리고 새로운 로그 파일 생성
 
-        formatter = logging.Formatter("[%(asctime)s] %(leveltime)s - %(message)s")
+        formatter = logging.Formatter("[%(asctime)s] %(levelname)s - %(message)s")
 
         handler.setFormatter(formatter)
 
