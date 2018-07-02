@@ -20,10 +20,12 @@ def before_first_request():
         # 세 번째 인자 -> n번째 로그 파일이 생성되면 원래 있던 로그파일을 버리고 새로운 로그 파일 생성
 
         formatter = logging.Formatter("[%(asctime)s] %(levelname)s - %(message)s")
+        # logging.Formatter를 사용하여 로그 포매팅
 
         handler.setFormatter(formatter)
-
+        # handler에 Formatter 설정
         app.logger.addHandler(handler)
+        # app의 logger에 handler 추가
         """
         <logger's level>
         CRITICAL = 50
@@ -36,6 +38,8 @@ def before_first_request():
         NOTSET = 0
         """
         app.logger.setLevel(logging.INFO)
+        # logger의 level을 세팅
+        # -> 기본 level은 WARNING
 
     make_logger()
     g.logger = app.logger
