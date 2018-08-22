@@ -22,7 +22,7 @@ def login():
 @app.errorhandler(404)
 def page_not_found(error):
     return render_template('page_not_found.html', 404)
-    # 페이지의 상태 코드가 404를 Flask에게 말해 준다.
+    # 페이지의 상태 코드가 404인 것을 Flask에게 말해 준다.
 
 
 @app.errorhandler(AssertionError)

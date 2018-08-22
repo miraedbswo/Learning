@@ -6,7 +6,7 @@
 """
 REST의 특징
 1. Uniform ( 유니폼 인터페이스 )
-*
+* 지정한 리소스에 대한 조작을 통일되고, 한정적인 인터페이스로 조작하는 인터페이스이다.
  
 2. Stateless ( 무상태성 )
 * REST는 무상태성 성격을 가짐. 작업을 위한 상태정보를 따로 저장하고 관리하지 않는다.
@@ -15,11 +15,12 @@ REST의 특징
 3. Cacheable ( 캐시 가능 )
 * REST의 가장 큰 특징은 HTTP라는 기존 웹 표준을 그대로 사용하기 때문에 웹에서 사용하는 기존 인프라를 그대로 활용이 가능하다.
 
-이 외에도 Self-descriptiveness( 자체 표현 구조 ), 
+이 외에도 Self-descriptiveness( 자체 표현 구조 ) - 말 그대로 자기 자신을 표현해야 함. ,
 Client-server 구조 (클라이언트와 서버에서 개발해야 할 내용이 명확해지고 서로간 의존성이 줄어듬)
 계층형 구조 가 있음.
 """
-# more exception - http://meetup.toast.com/posts/92
+
+# more exception - http://meetup.toast.com/posts/92, http://private.tistory.com/28
 
 from flask import Flask, abort, request
 from flask_restful import Api, Resource
