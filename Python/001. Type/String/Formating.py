@@ -17,5 +17,6 @@ print("Hello {0} , your age is {1}".format(username, age))
 
 # 3. fstring
 print(f"Hello {username} , your age is {age}")
-# Python 3.6 부터 지원하는 방식이라고 함
+# Python 3.5 부터 지원하는 방식이라고 함
 # 중괄호 속에 넣어서 format()보다 보기 쉽다
+# .format 메서드보다 연산 처리 속도가 빠르다는 장점이 있다.
