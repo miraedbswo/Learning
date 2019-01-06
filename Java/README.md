@@ -5,6 +5,8 @@
 자바를 처음부터 공부하면서, 언어의 문법. 기능을 공부하는 것도 중요하지만, 객체 지향에 대해 깊게 공부하는 것이 더욱 중요하다고 느꼈다.
 
 객체지향에 대한 많은 책들을 읽으면서, 유익한 내용을 정리하고자 만들게 되었다.  
+  
+  
 [개발자가 반드시 정복해야 할 객체지향과 디자인 패턴](http://www.yes24.com/24/goods/9179120?scode=032&OzSrank=1)  
 [객체지향의 사실과 오해](http://www.yes24.com/24/goods/18249021?scode=032&OzSrank=1)  
 [Jeremy's Clean Code](http://sungjk.github.io/2017/07/27/clean-code.html)  
