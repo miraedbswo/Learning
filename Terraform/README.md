@@ -28,5 +28,7 @@
 
 ## 내가 보고 배운 링크들.
 [Terraform - getting-started](https://learn.hashicorp.com/terraform/?track=getting-started#getting-started)
+
 [44bits.io - Terraform 기초 튜토리얼](https://www.44bits.io/ko/post/terraform_introduction_infrastrucute_as_code#%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EB%8B%A8%EA%B3%84---%EC%95%84%EB%A7%88%EC%A1%B4-%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%84%A4%EC%A0%95)
+
 [Outsider - Terraform으로 AWS 관리하기](https://blog.outsider.ne.kr/1260)
