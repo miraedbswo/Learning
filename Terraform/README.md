@@ -4,7 +4,7 @@
 
 개발자는 테라폼에서 제공하는 HCL(Hashicorp Configuration Language)라는 고수준 설정 언어(high-level configuration language) 혹은 json 를 이용해서 데이터센터 인프라스트럭처를 정의할 수 있다. 
 
-하지만 HCL을 사용하는 것을 권장함.
+하지만 HCL을 사용하는 것을 권장한다.
 
 테라폼은 Amazon Web Service, IBM Cloud, Google Cloud Platform, Linode, Microsoft Azure, Oracle Cloud Infrastructure, VMware vSphere, OpenStack 등의 인프라스트럭처 제공자를 지원한다.
 
@@ -26,3 +26,7 @@
 
 저자는, 코드가 말보다 인프라에 대한 높은 수준의 설명을 해 줄 수 있다고 생각한다.
 
+## 내가 보고 배운 링크들.
+[Terraform - getting-started](https://learn.hashicorp.com/terraform/?track=getting-started#getting-started)
+[44bits.io - Terraform 기초 튜토리얼](https://www.44bits.io/ko/post/terraform_introduction_infrastrucute_as_code#%EC%B2%AB-%EB%B2%88%EC%A7%B8-%EB%8B%A8%EA%B3%84---%EC%95%84%EB%A7%88%EC%A1%B4-%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%84%A4%EC%A0%95)
+[Outsider - Terraform으로 AWS 관리하기](https://blog.outsider.ne.kr/1260)
